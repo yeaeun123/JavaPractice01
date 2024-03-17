@@ -1,5 +1,7 @@
 //package com.javapractice;
-//
+
+//practice01
+
 //public class JavaPracticce {
 //					// 01. 2번
 //					// 02. 3번 JDK는 JRE+라이브러리API+컴파일러 등의 개발도구로 구성되어있다.
