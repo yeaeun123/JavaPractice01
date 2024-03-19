@@ -13,10 +13,8 @@ public class Java2_7 {
 		Scanner sc = new Scanner(System.in);
 		int age = sc.nextInt();
 		
-		int bus = 0 ;
-		
 		if (age >= 0 && age <= 7) {
-			bus = 0;
+			
 			System.out.println("취학 전 아동/무료입니다.");
 		} else if (age >= 8 && age <=13) {
 			System.out.println("초등학생 / 2000원 입니다.");

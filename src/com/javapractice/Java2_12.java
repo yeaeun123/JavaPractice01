@@ -16,10 +16,10 @@ public class Java2_12 {
 		System.out.println("숫자3:");
 		int num3 = scanner.nextInt();
 	
-		int small = num1;
+		int small = num1; //num1이 제일 작다고 가정했을떄
 		
-		if (num2 < small) {
-			small = num2;
+		if (num2 < small) { //num2가 small보다 작으면
+			small = num2;	//num2가 small로 지정됨
 		
 	}	if (num3 < small){
 			small = num3;

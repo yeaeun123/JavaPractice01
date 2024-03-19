@@ -11,9 +11,9 @@ public class Java2_17 {
 		
 		System.out.println("수익을 입력해주세요.");
 		System.out.print("금익:");
-		int money = scanner.nextInt();
+		int money = scanner.nextInt(); // 금액 입력하는 곳 만들기
 		
-		double tax;
+		double tax; //세금 변수 선언
 		if(money>0 && money <= 1000) {
 			tax = 0.09 * money;
 			System.out.println("소득세는"+ tax +"입니다.");

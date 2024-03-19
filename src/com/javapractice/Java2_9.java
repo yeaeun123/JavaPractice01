@@ -11,7 +11,7 @@ public class Java2_9 {
 		System.out.print("년도: ");
 	
 		int birth = scanner.nextInt();
-		int today = 2023;
+		int today = 2024;
 		int age = today-birth;
 		
 		if (age < 15 || age >=65) {

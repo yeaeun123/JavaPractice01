@@ -15,6 +15,7 @@ public class Java2_14 {
 		if (sab > 0) {
 			int team = sab % 3;
 			String teamNo;
+			
 			switch (team) {
 				case 0:
 				teamNo = "A팀";

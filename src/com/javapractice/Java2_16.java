@@ -19,7 +19,7 @@ public class Java2_16 {
 	            result = 7 * x + 2;
 	        }
 
-	        System.out.println("계산 결과는" + result + "입니다.");
+	        System.out.println("계산 결과는 " + result + "입니다.");
 
 	        scanner.close();
 	    

@@ -8,9 +8,9 @@ public class Java2_11 {
 	
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("첫번째 숫자 : ");
+		System.out.print("첫번째 숫자 : ");
 		int num1 = scanner.nextInt();
-		System.out.println("두번째 숫자 : ");
+		System.out.print("두번째 숫자 : ");
 		int num2 = scanner.nextInt();
 		
 		int large,small;
