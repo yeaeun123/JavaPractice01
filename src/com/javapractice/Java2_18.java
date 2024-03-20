@@ -11,8 +11,8 @@ public class Java2_18 {
 		
 		System.out.println("알파벳 1글자(소문자)를 입력하세요.");
 		System.out.print("알파벳:");
+		
 		char alphabet = scanner.next().charAt(0);
-	
 		
 		switch(alphabet) {
 		

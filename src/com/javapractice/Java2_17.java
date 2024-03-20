@@ -15,7 +15,7 @@ public class Java2_17 {
 		
 		double tax; //세금 변수 선언
 		if(money>0 && money <= 1000) {
-			tax = 0.09 * money;
+			tax = 0.09 * money; //1000이하인 경우 계산법 입력
 			System.out.println("소득세는"+ tax +"입니다.");
 		}else if (money>0 &&money <=4000) {
 			tax = 1000 * 0.09 + 0.18 * (money-1000);
