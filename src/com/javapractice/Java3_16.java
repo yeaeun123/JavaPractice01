@@ -10,16 +10,18 @@ public class Java3_16 {
 		
 		System.out.print("숫자를 입력하세요:");
 		int num = scanner.nextInt();
-		int sum = 0;
+		int sum =0 ;
 		
 		for(int i =1; i <=num; i++) {
 			if(i % 5 == 0) {
-				sum +=i;
 				
-	
+			
+				System.out.println("5의 배수의 개수:" +i);
+			
+				System.out.println("5의 배수의 합:" + sum);
 		} 
+			
 		
-		System.out.println("5의 배수의 합:"+sum);
 			}
 		scanner.close();
 			}
