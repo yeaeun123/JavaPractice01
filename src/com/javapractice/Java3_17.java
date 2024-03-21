@@ -11,11 +11,11 @@ public class Java3_17 {
 		System.out.print("숫자를 입력하세요:");
 		int num = scanner.nextInt();
 		int i,j;
-		for (i=1; i<=num ; i++) {
-			for(j=1;j>i; j++) {
+		for (i=0; i<=num ; i++) {
+			for(j=num-1; j>=i; j--) {
 			System.out.print("*");
 		}
-		System.out.println("*");
+		System.out.println();
 		}
 		scanner.close();
 	
