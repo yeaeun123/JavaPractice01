@@ -13,13 +13,17 @@ public class Java3_18 {
 		for (i=0; i<=num ; i++) {
 			for(j=num-1; j>=i; j--) {
 			System.out.print("*");
+			for(j=i+1; j<=num; j++) {
+				System.out.print("*");
+			}
 		}
+			
+			
 		System.out.println();
 	
-			}
+		}	
 	
 		scanner.close();
-	
+	}
 	}
 
-}
