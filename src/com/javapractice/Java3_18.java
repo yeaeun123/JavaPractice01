@@ -9,21 +9,28 @@ public class Java3_18 {
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("숫자를 입력하세요:");
 		int num = scanner.nextInt();
-		int i,j;
-		for (i=0; i<=num ; i++) {
-			for(j=num-1; j>=i; j--) {
-			System.out.print("*");
-			for(j=i+1; j<=num; j++) {
-				System.out.print("*");
-			}
-		}
+	
+	
+		   // 별표 개수 줄이기
+        for (int i = num; i >= 1; i--) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        
+        // 별표 개수 늘리기
+        for (int i = 2; i <= num; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
 			
 			
 		System.out.println();
 	
-		}	
-	
+		
+	        }
 		scanner.close();
-	}
-	}
+	
+	}}
 
