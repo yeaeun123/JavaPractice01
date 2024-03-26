@@ -1,4 +1,4 @@
-package com.java.practice.two;
+package com.javapractice04;
 
 public class Java4_01 {
 
