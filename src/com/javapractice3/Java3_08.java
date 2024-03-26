@@ -1,4 +1,4 @@
-package com.javapractice;
+package com.javapractice3;
 
 public class Java3_08 {
 
